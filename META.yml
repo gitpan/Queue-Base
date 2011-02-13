@@ -23,4 +23,4 @@ requires:
   version: 0.77
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.02.01
+version: 1.2.2
