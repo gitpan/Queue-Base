@@ -1,6 +1,8 @@
 
-2011-02-09 (v1.2) - Alexei Znamensky
+2011-02-09 (v1.1_90) - Alexei Znamensky
     * Re-organizing the module, added method remove_all
+    * Rewrote the test file with Test::More
+    * Changed builder to Module::Install
 
 2003-05-26 (v1.1) - Farkas Arpad
 	* Interface: now clear() does what before empty() did. empty() is used to
