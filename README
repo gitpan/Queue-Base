@@ -2,7 +2,7 @@ NAME
     Queue::Base - Simple OO style queue implementation.
 
 VERSION
-    version 2.0_3
+    version 2.0_4
 
 SYNOPSIS
         use Queue::Base;
@@ -11,10 +11,10 @@ SYNOPSIS
         my $queue = new Queue::Base;
         # or
         my $queue = new Queue::Base(\@elements);
- 
+
         # add a new element to the queue
         $queue->add($element);
- 
+
         # remove the next element from the queue
         if (! $queue->empty) {
             my $element = $queue->remove;
@@ -25,7 +25,7 @@ SYNOPSIS
         if (defined $element) {
             # do some processing here
         }
- 
+
         # add/remove more than just one element
         $queue->add($elem1, $elem2 ...)
         # and

@@ -2,7 +2,7 @@
 package Queue::Base;
 
 BEGIN {
-    $Queue::Base::VERSION = '2.0_3';
+    $Queue::Base::VERSION = '2.0_4';
 }
 use strict;
 use warnings;
@@ -74,7 +74,7 @@ Queue::Base - Simple OO style queue implementation.
 
 =head1 VERSION
 
-version 2.0_3
+version 2.0_4
 
 =head1 SYNOPSIS
 
@@ -84,10 +84,10 @@ version 2.0_3
     my $queue = new Queue::Base;
     # or
     my $queue = new Queue::Base(\@elements);
- 
+
     # add a new element to the queue
     $queue->add($element);
- 
+
     # remove the next element from the queue
     if (! $queue->empty) {
         my $element = $queue->remove;
@@ -98,7 +98,7 @@ version 2.0_3
     if (defined $element) {
         # do some processing here
     }
- 
+
     # add/remove more than just one element
     $queue->add($elem1, $elem2 ...)
     # and
@@ -106,7 +106,7 @@ version 2.0_3
 
 =head1 DESCRIPTION
 
-The Queue::Base is a simple implementation for queue structures using an 
+The Queue::Base is a simple implementation for queue structures using an
 OO interface. Provides basic functionality: nothing less - nothing more.
 
 =head1 METHODS
@@ -158,8 +158,8 @@ Removes all elements from the queue.
 
 =head1 CAVEATS
 
-The module works only with scalar values. If you want to use more complex 
-structures (and there's a big change you want that) please use references, 
+The module works only with scalar values. If you want to use more complex
+structures (and there's a big change you want that) please use references,
 which in perl5 are basically scalars.
 
 =head1 AUTHOR

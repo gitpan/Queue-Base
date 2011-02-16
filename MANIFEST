@@ -19,4 +19,5 @@ inc/Module/Install/WriteAll.pm
 lib/Queue/Base.pm
 t/00.load.t
 t/01.queue.t
+t/release-eol.t
 t/release-pod-coverage.t
