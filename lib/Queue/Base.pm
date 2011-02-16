@@ -2,7 +2,7 @@
 package Queue::Base;
 
 BEGIN {
-    $Queue::Base::VERSION = '2.0_2';
+    $Queue::Base::VERSION = '2.0_3';
 }
 use strict;
 use warnings;
@@ -74,7 +74,7 @@ Queue::Base - Simple OO style queue implementation.
 
 =head1 VERSION
 
-version 2.0_2
+version 2.0_3
 
 =head1 SYNOPSIS
 
@@ -164,6 +164,6 @@ which in perl5 are basically scalars.
 
 =head1 AUTHOR
 
-Farkas Arpad, maintained by Alexei "RUSSOZ" Znamensky C<< <russoz@cpan.org> >>
+Farkas Arpad, maintained by Alexei Znamensky C<< <russoz@cpan.org> >>
 
 =cut

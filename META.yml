@@ -17,4 +17,5 @@ meta-spec:
 name: Queue-Base
 requires:
   Carp: 0
-version: 2.0_2
+  perl: 5.006
+version: 2.0_3

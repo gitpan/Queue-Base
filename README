@@ -2,7 +2,7 @@ NAME
     Queue::Base - Simple OO style queue implementation.
 
 VERSION
-    version 2.0_2
+    version 2.0_3
 
 SYNOPSIS
         use Queue::Base;
@@ -72,6 +72,5 @@ CAVEATS
     references, which in perl5 are basically scalars.
 
 AUTHOR
-    Farkas Arpad, maintained by Alexei "RUSSOZ" Znamensky
-    "<russoz@cpan.org>"
+    Farkas Arpad, maintained by Alexei Znamensky "<russoz@cpan.org>"
 

@@ -7,7 +7,7 @@ use inc::Module::Install 1.00;
 name 'Queue-Base';
 abstract "Simple\ OO\ style\ queue\ implementation\.";
 author "Farkas\ Arpad\ \<arpadf\@cpan\.org\>";
-version "2\.0_2";
+version "2\.0_3";
 license "perl";
 
 # configure requires => configure_requires
@@ -18,6 +18,7 @@ requires  "ExtUtils\:\:MakeMaker" => "6\.42";
 
 # runtime requires => requires
 requires  "Carp" => "0";
+perl_version "5\.006";
 
 # runtime recommends => recommends
 
