@@ -2,7 +2,7 @@ NAME
     Queue::Base - Simple OO style queue implementation.
 
 VERSION
-    version 2.0_4
+    version 2.0_5
 
 SYNOPSIS
         use Queue::Base;

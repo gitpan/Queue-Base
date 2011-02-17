@@ -2,7 +2,7 @@
 package Queue::Base;
 
 BEGIN {
-    $Queue::Base::VERSION = '2.0_4';
+    $Queue::Base::VERSION = '2.0_5';
 }
 use strict;
 use warnings;
@@ -74,7 +74,7 @@ Queue::Base - Simple OO style queue implementation.
 
 =head1 VERSION
 
-version 2.0_4
+version 2.0_5
 
 =head1 SYNOPSIS
 

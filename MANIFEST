@@ -2,6 +2,7 @@ Changes
 INSTALL
 LICENSE
 MANIFEST
+META.json
 META.yml
 Makefile.PL
 README
@@ -21,3 +22,4 @@ t/00.load.t
 t/01.queue.t
 t/release-eol.t
 t/release-pod-coverage.t
+t/release-unused-vars.t
