@@ -7,7 +7,7 @@ use inc::Module::Install 1.00;
 name 'Queue-Base';
 abstract "Simple\ OO\ style\ queue\ implementation\.";
 author "Farkas\ Arpad\ \<arpadf\@cpan\.org\>";
-version "2\.1_01";
+version "2\.1_02";
 license "perl";
 
 # configure requires => configure_requires
