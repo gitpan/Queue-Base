@@ -8,7 +8,6 @@ Makefile.PL
 README
 TODO
 dist.ini
-ignore.txt
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
