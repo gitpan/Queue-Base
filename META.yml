@@ -4,7 +4,10 @@ author:
   - 'Farkas Arpad <arpadf@cpan.org>'
   - 'Alexei Znamensky <russoz@cpan.org>'
 build_requires:
+  English: 0
   ExtUtils::MakeMaker: 6.42
+  File::Find: 0
+  File::Temp: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.42
@@ -18,4 +21,7 @@ name: Queue-Base
 requires:
   Carp: 0
   perl: 5.006
-version: 2.1_02
+resources:
+  bugtracker: http://github.com/russoz/Queue-Base/issues
+  repository: git://github.com/russoz/Queue-Base.git
+version: 2.1_03

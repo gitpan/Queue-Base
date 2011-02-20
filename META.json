@@ -33,11 +33,24 @@
       },
       "test" : {
          "requires" : {
+            "English" : 0,
+            "File::Find" : 0,
+            "File::Temp" : 0,
             "Test::More" : 0
          }
       }
    },
    "release_status" : "testing",
-   "version" : "2.1_02"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/russoz/Queue-Base/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/russoz/Queue-Base.git",
+         "web" : "http://github.com/russoz/Queue-Base"
+      }
+   },
+   "version" : "2.1_03"
 }
 

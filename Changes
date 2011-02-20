@@ -1,17 +1,120 @@
+Revision History for Queue-Base
+===============================
 
-{{$NEXT}}
+2.1_03
+------
 
-2011-02-09 (v1.1_90) - Alexei Znamensky
-    * Re-organizing the module, added method remove_all
-    * Rewrote the test file with Test::More
-    * Changed builder to Module::Install
+commit dc6d6e62dd55a2f5e08b0fe3105827ae4eee40ad
+Author: Alexei Znamensky <russoz@cpan.org>
 
-2003-05-26 (v1.1) - Farkas Arpad
-	* Interface: now clear() does what before empty() did. empty() is used to
-		test whether the queue is empty, its size is zero.
+    changes for Dist::Zilla
 
-2003-05-22 (v1.02) - Farkas Arpad
-	* Documentation: a small inconsistency.
+commit 943008325c86ab780f02a182b5a348e06817f63a
+Author: Alexei Znamensky <russoz@cpan.org>
 
-2003-05-16 (v1.0) - Farkas Arpad
-	* Start: Initial version.
+    fixes to make perlcritic happy
+
+commit 8ee06efcf3d80008218fd6d90251d5f22c07fb2a
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    added .build* to .gitignore
+
+v2.1_02 2011-02-17
+------------------
+
+commit 17cd4bcea69d7c1405a544e926c10951858a5340
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    v2.1_02
+
+v2.1_01 2011-02-17
+------------------
+
+commit 4e51c33775efa7ea147c7e79e1bad66c16cc5464
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    renamed ignore.txt to .gitignore, added [@Git] to dist.ini
+
+commit f3ea25a4303016c4e792a0e367bc8adf1d8a22fa
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    releasing version 2.1, based on Dist::Zilla
+
+commit ef0dd66fb33c7dbefc0d31fdb0cfb5434c228dc0
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    added more plugins to Dist::Zilla
+
+commit 08b367f7307bf87ad1607bff7f8c00e1577946f2
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    added settings for @Git
+
+commit 3702c381595c0dfa6e7644bd945987b95af2e20c
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    move to Dist::Zilla
+
+commit 0c956de604201e54f52cd033772e4a801a542be2
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    bumped to version 2.0.1
+
+commit 9f4f74b8dfbeb976d1c5343771ccc45884dd0832
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    renamed test file, fixed manifest
+
+commit 61ce2c014d52194c53f24d3db38c1d9d5d2bd91f
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    bumped up the version number to 2.0
+
+commit ec01392ebabf99f4aead69d64155f8a74080eeb0
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    improved docs, bumped version to 1.2
+
+commit e7eeb7b50c164adee43929e5f32f51857984d810
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    bumped the version up
+
+commit 77b777672a78faa5a4135c847d13c58da622c586
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    clearer authoring statement
+
+commit b5649fd44a4014cd81a5d579a5d4ffcb197adf04
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    i'm going through change-e-e-es
+
+commit 9c1af15fc9c7d6cb23420a7ca6ae71b49d5e5bb7
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    adjusted version to sane value
+
+commit 4ff17e3aec2122b1ad18ebc5b3550dc81d3cae22
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    moved to Module::Install
+
+commit 53d44bac66d16737ed265bad49d8967bd39b8fdb
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    improved the test suite
+
+commit c362127aff8c532d4fefa373ffd8bd33e51bd555
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    some changes to documentation
+
+commit 660dcd1053b8491261823f2e4faae2ae3a6f9f3e
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    added first modified version
+
+===================================
+End of changes in the last 365 days
+===================================

@@ -1,13 +1,11 @@
-
 package Queue::Base;
 
-BEGIN {
-    $Queue::Base::VERSION = '2.1_02';
-}
 use strict;
 use warnings;
 
 use Carp;
+
+our $VERSION = 2.1_03;    # VERSION
 
 sub new {
     my ( $class, $elems ) = @_;
@@ -21,7 +19,8 @@ sub new {
 }
 
 sub add {
-    push @{ shift->{list} }, @_;
+    my ( $self, @args ) = @_;
+    push @{ $self->{list} }, @args;
     return;
 }
 
@@ -74,7 +73,7 @@ Queue::Base - Simple OO style queue implementation.
 
 =head1 VERSION
 
-version 2.1_02
+version 2.1_03
 
 =head1 SYNOPSIS
 
