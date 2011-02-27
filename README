@@ -2,7 +2,7 @@ NAME
     Queue::Base - Simple OO style queue implementation.
 
 VERSION
-    version 2.1_03
+    version 2.1_04
 
 SYNOPSIS
         use Queue::Base;
@@ -34,6 +34,9 @@ SYNOPSIS
 DESCRIPTION
     The Queue::Base is a simple implementation for queue structures using an
     OO interface. Provides basic functionality: nothing less - nothing more.
+
+NAME
+    Queue::Base - Simple OO style queue implementation.
 
 METHODS
   Constructor
@@ -72,5 +75,11 @@ CAVEATS
     references, which in perl5 are basically scalars.
 
 AUTHOR
-    Farkas Arpad, maintained by Alexei Znamensky "<russoz@cpan.org>"
+    Alexei Znamensky <russoz@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2011 by Farkas Arpad.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
 

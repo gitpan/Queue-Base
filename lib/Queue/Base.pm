@@ -1,11 +1,13 @@
 package Queue::Base;
 
+# ABSTRACT: Simple OO style queue implementation.
+
 use strict;
 use warnings;
 
 use Carp;
 
-our $VERSION = 2.1_03;    # VERSION
+our $VERSION = '2.1_04';    # VERSION
 
 sub new {
     my ( $class, $elems ) = @_;
@@ -65,7 +67,7 @@ sub clear {
 
 1;
 
-__END__
+=pod
 
 =head1 NAME
 
@@ -73,7 +75,7 @@ Queue::Base - Simple OO style queue implementation.
 
 =head1 VERSION
 
-version 2.1_03
+version 2.1_04
 
 =head1 SYNOPSIS
 
@@ -107,6 +109,10 @@ version 2.1_03
 
 The Queue::Base is a simple implementation for queue structures using an
 OO interface. Provides basic functionality: nothing less - nothing more.
+
+=head1 NAME
+
+Queue::Base - Simple OO style queue implementation.
 
 =head1 METHODS
 
@@ -163,6 +169,15 @@ which in perl5 are basically scalars.
 
 =head1 AUTHOR
 
-Farkas Arpad, maintained by Alexei Znamensky C<< <russoz@cpan.org> >>
+Alexei Znamensky <russoz@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2011 by Farkas Arpad.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
+
+__END__

@@ -1,8 +1,16 @@
 Revision History for Queue-Base
 ===============================
 
-2.1_03
+2.1_04
 ------
+
+commit 93776478af644d2ba05ff8b1803711fb51ef0784
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    Moved to Pod::Weaver, improved dist.ini
+
+v2.1_03 2011-02-20
+------------------
 
 commit dc6d6e62dd55a2f5e08b0fe3105827ae4eee40ad
 Author: Alexei Znamensky <russoz@cpan.org>

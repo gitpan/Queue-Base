@@ -1,7 +1,6 @@
 {
    "abstract" : "Simple OO style queue implementation.",
    "author" : [
-      "Farkas Arpad <arpadf@cpan.org>",
       "Alexei Znamensky <russoz@cpan.org>"
    ],
    "dynamic_config" : 0,
@@ -15,20 +14,14 @@
    },
    "name" : "Queue-Base",
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "6.42"
-         }
-      },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.42"
+            "ExtUtils::MakeMaker" : "6.31"
          }
       },
       "runtime" : {
          "requires" : {
-            "Carp" : 0,
-            "perl" : "5.006"
+            "Carp" : 0
          }
       },
       "test" : {
@@ -36,7 +29,9 @@
             "English" : 0,
             "File::Find" : 0,
             "File::Temp" : 0,
-            "Test::More" : 0
+            "Scalar::Util" : 0,
+            "Test::More" : "0.94",
+            "perl" : "5.004"
          }
       }
    },
@@ -51,6 +46,6 @@
          "web" : "http://github.com/russoz/Queue-Base"
       }
    },
-   "version" : "2.1_03"
+   "version" : "2.1_04"
 }
 
