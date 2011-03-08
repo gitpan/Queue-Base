@@ -6,7 +6,7 @@ use warnings;
 # ABSTRACT: Simple OO style queue implementation.
 # ENCODING: utf8
 
-our $VERSION = '2.1.10';    # VERSION
+our $VERSION = '2.200';    # VERSION
 
 use Carp;
 
@@ -78,7 +78,7 @@ Queue::Base - Simple OO style queue implementation.
 
 =head1 VERSION
 
-version 2.1.10
+version 2.200
 
 =head1 SYNOPSIS
 

@@ -23,4 +23,4 @@ requires:
 resources:
   bugtracker: http://github.com/russoz/Queue-Base/issues
   repository: git://github.com/russoz/Queue-Base.git
-version: 2.1.10
+version: 2.200
