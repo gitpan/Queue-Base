@@ -4,7 +4,7 @@
       "Alexei Znamensky <russoz@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110440",
+   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110550",
    "license" : [
       "perl_5"
    ],
@@ -35,7 +35,7 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "web" : "http://github.com/russoz/Queue-Base/issues"
@@ -46,6 +46,6 @@
          "web" : "http://github.com/russoz/Queue-Base"
       }
    },
-   "version" : "2.1_04"
+   "version" : "2.1.10"
 }
 

@@ -1,13 +1,14 @@
 package Queue::Base;
 
-# ABSTRACT: Simple OO style queue implementation.
-
 use strict;
 use warnings;
 
-use Carp;
+# ABSTRACT: Simple OO style queue implementation.
+# ENCODING: utf8
 
-our $VERSION = '2.1_04';    # VERSION
+our $VERSION = '2.1.10';    # VERSION
+
+use Carp;
 
 sub new {
     my ( $class, $elems ) = @_;
@@ -69,13 +70,15 @@ sub clear {
 
 =pod
 
+=encoding utf8
+
 =head1 NAME
 
 Queue::Base - Simple OO style queue implementation.
 
 =head1 VERSION
 
-version 2.1_04
+version 2.1.10
 
 =head1 SYNOPSIS
 
@@ -109,10 +112,6 @@ version 2.1_04
 
 The Queue::Base is a simple implementation for queue structures using an
 OO interface. Provides basic functionality: nothing less - nothing more.
-
-=head1 NAME
-
-Queue::Base - Simple OO style queue implementation.
 
 =head1 METHODS
 
@@ -177,6 +176,108 @@ This software is copyright (c) 2011 by Farkas Arpad.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+=for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders
+
+=head1 SUPPORT
+
+=head2 Perldoc
+
+You can find documentation for this module with the perldoc command.
+
+  perldoc Queue::Base
+
+=head2 Websites
+
+The following websites have more information about this module, and may be of help to you. As always,
+in addition to those websites please use your favorite search engine to discover more resources.
+
+=over 4
+
+=item *
+
+Search CPAN
+
+L<http://search.cpan.org/dist/Queue-Base>
+
+=item *
+
+AnnoCPAN: Annotated CPAN documentation
+
+L<http://annocpan.org/dist/Queue-Base>
+
+=item *
+
+CPAN Ratings
+
+L<http://cpanratings.perl.org/d/Queue-Base>
+
+=item *
+
+CPAN Forum
+
+L<http://cpanforum.com/dist/Queue-Base>
+
+=item *
+
+CPANTS Kwalitee
+
+L<http://cpants.perl.org/dist/overview/Queue-Base>
+
+=item *
+
+CPAN Testers Results
+
+L<http://cpantesters.org/distro/Q/Queue-Base.html>
+
+=item *
+
+CPAN Testers Matrix
+
+L<http://matrix.cpantesters.org/?dist=Queue-Base>
+
+=back
+
+=head1 BUGS AND LIMITATIONS
+
+No bugs have been reported.
+
+Please report any bugs or feature requests through the web interface at
+L<http://github.com/russoz/Queue-Base/issues>.
+
+=head1 AVAILABILITY
+
+The latest version of this module is available from the Comprehensive Perl
+Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN
+site near you, or see L<http://search.cpan.org/dist/Queue-Base/>.
+
+The development version lives at L<http://github.com/russoz/Queue-Base>
+and may be cloned from L<git://github.com/russoz/Queue-Base.git>.
+Instead of sending patches, please fork this project using the standard
+git and github infrastructure.
+
+=head1 DISCLAIMER OF WARRANTY
+
+BECAUSE THIS SOFTWARE IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+FOR THE SOFTWARE, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT
+WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER
+PARTIES PROVIDE THE SOFTWARE "AS IS" WITHOUT WARRANTY OF ANY KIND,
+EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE
+SOFTWARE IS WITH YOU. SHOULD THE SOFTWARE PROVE DEFECTIVE, YOU ASSUME
+THE COST OF ALL NECESSARY SERVICING, REPAIR, OR CORRECTION.
+
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+REDISTRIBUTE THE SOFTWARE AS PERMITTED BY THE ABOVE LICENCE, BE LIABLE
+TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL, OR
+CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE
+SOFTWARE (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING
+RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A
+FAILURE OF THE SOFTWARE TO OPERATE WITH ANY OTHER SOFTWARE), EVEN IF
+SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGES.
 
 =cut
 

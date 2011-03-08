@@ -29,7 +29,7 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'Carp' => '0'
   },
-  'VERSION' => '2.1_04',
+  'VERSION' => '2.1.10',
   'test' => {
     'TESTS' => 't/*.t'
   }

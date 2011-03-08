@@ -1,8 +1,16 @@
 Revision History for Queue-Base
 ===============================
 
-2.1_04
+2.1.10
 ------
+
+commit 9bfbe5379aabf49c4b021ed06778a8fa1f049cf8
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    version 2.1.10
+
+v2.1_04 2011-02-27
+------------------
 
 commit 93776478af644d2ba05ff8b1803711fb51ef0784
 Author: Alexei Znamensky <russoz@cpan.org>
