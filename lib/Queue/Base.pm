@@ -4,9 +4,8 @@ use strict;
 use warnings;
 
 # ABSTRACT: Simple OO style queue implementation.
-# ENCODING: utf8
 
-our $VERSION = '2.200';    # VERSION
+our $VERSION = '2.201'; # VERSION
 
 use Carp;
 
@@ -68,9 +67,11 @@ sub clear {
 
 1;
 
+
+
 =pod
 
-=encoding utf8
+=encoding utf-8
 
 =head1 NAME
 
@@ -78,7 +79,7 @@ Queue::Base - Simple OO style queue implementation.
 
 =head1 VERSION
 
-version 2.200
+version 2.201
 
 =head1 SYNOPSIS
 
@@ -172,7 +173,7 @@ Alexei Znamensky <russoz@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Farkas Arpad.
+This software is copyright (c) 2011 by Farkas Arpad, Alexei Znamensky.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
@@ -281,4 +282,7 @@ DAMAGES.
 
 =cut
 
+
 __END__
+
+

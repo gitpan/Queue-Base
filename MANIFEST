@@ -10,9 +10,9 @@ TODO
 dist.ini
 lib/Queue/Base.pm
 t/00-compile.t
-t/00.load.t
-t/000-report-versions.t
-t/01.queue.t
+t/000-report-versions-tiny.t
+t/001-load.t
+t/002-queue.t
 t/author-critic.t
 t/release-distmeta.t
 t/release-eol.t

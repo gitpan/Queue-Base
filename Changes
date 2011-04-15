@@ -1,8 +1,21 @@
 Revision History for Queue-Base
 ===============================
 
-2.200
+2.201
 -----
+
+commit cef4997bc688574215fac7c1c8abaa5f9e0a434b
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    changed encoding plugin for pod weaver
+
+commit 0d59a67a779b78dabc79b0105883ec46afe93a8a
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    added some options to dist.ini, renamed test files
+
+v2.200 2011-03-08
+-----------------
 
 commit 4324250bef60cf5929adbb01d11c9d6e740f79c2
 Author: Alexei Znamensky <russoz@cpan.org>

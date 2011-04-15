@@ -4,7 +4,7 @@
       "Alexei Znamensky <russoz@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110550",
+   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110930",
    "license" : [
       "perl_5"
    ],
@@ -29,9 +29,7 @@
             "English" : 0,
             "File::Find" : 0,
             "File::Temp" : 0,
-            "Scalar::Util" : 0,
-            "Test::More" : "0.94",
-            "perl" : "5.004"
+            "Test::More" : "0.88"
          }
       }
    },
@@ -46,6 +44,6 @@
          "web" : "http://github.com/russoz/Queue-Base"
       }
    },
-   "version" : "2.200"
+   "version" : "2.201"
 }
 

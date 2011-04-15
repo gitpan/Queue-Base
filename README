@@ -2,7 +2,7 @@ NAME
     Queue::Base - Simple OO style queue implementation.
 
 VERSION
-    version 2.200
+    version 2.201
 
 SYNOPSIS
         use Queue::Base;
@@ -75,7 +75,7 @@ AUTHOR
     Alexei Znamensky <russoz@cpan.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2011 by Farkas Arpad.
+    This software is copyright (c) 2011 by Farkas Arpad, Alexei Znamensky.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
