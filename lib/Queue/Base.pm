@@ -5,7 +5,7 @@ use warnings;
 
 # ABSTRACT: Simple OO style queue implementation.
 
-our $VERSION = '2.201'; # VERSION
+our $VERSION = '2.202'; # VERSION
 
 use Carp;
 
@@ -65,6 +65,11 @@ sub clear {
     return;
 }
 
+sub copy_elem {
+    my @elems = @{ shift->{list} };
+    return @elems;
+}
+
 1;
 
 
@@ -79,7 +84,7 @@ Queue::Base - Simple OO style queue implementation.
 
 =head1 VERSION
 
-version 2.201
+version 2.202
 
 =head1 SYNOPSIS
 
@@ -159,6 +164,10 @@ Returns whether the queue is empty, which means its size is 0.
 
 Removes all elements from the queue.
 
+=item copy_elem
+
+Returns a copy (shallow) of the underlying array with the queue elements.
+
 =back
 
 =head1 CAVEATS
@@ -166,17 +175,6 @@ Removes all elements from the queue.
 The module works only with scalar values. If you want to use more complex
 structures (and there's a big change you want that) please use references,
 which in perl5 are basically scalars.
-
-=head1 AUTHOR
-
-Alexei Znamensky <russoz@cpan.org>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2011 by Farkas Arpad, Alexei Znamensky.
-
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
 
 =for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders
 
@@ -199,11 +197,15 @@ in addition to those websites please use your favorite search engine to discover
 
 Search CPAN
 
+The default CPAN search engine, useful to view POD in HTML format.
+
 L<http://search.cpan.org/dist/Queue-Base>
 
 =item *
 
-AnnoCPAN: Annotated CPAN documentation
+AnnoCPAN
+
+The AnnoCPAN is a website that allows community annonations of Perl module documentation.
 
 L<http://annocpan.org/dist/Queue-Base>
 
@@ -211,51 +213,98 @@ L<http://annocpan.org/dist/Queue-Base>
 
 CPAN Ratings
 
+The CPAN Ratings is a website that allows community ratings and reviews of Perl modules.
+
 L<http://cpanratings.perl.org/d/Queue-Base>
 
 =item *
 
 CPAN Forum
 
+The CPAN Forum is a web forum for discussing Perl modules.
+
 L<http://cpanforum.com/dist/Queue-Base>
 
 =item *
 
-CPANTS Kwalitee
+CPANTS
+
+The CPANTS is a website that analyzes the Kwalitee ( code metrics ) of a distribution.
 
 L<http://cpants.perl.org/dist/overview/Queue-Base>
 
 =item *
 
-CPAN Testers Results
+CPAN Testers
 
-L<http://cpantesters.org/distro/Q/Queue-Base.html>
+The CPAN Testers is a network of smokers who run automated tests on uploaded CPAN distributions.
+
+L<http://www.cpantesters.org/distro/Q/Queue-Base>
 
 =item *
 
 CPAN Testers Matrix
 
+The CPAN Testers Matrix is a website that provides a visual way to determine what Perls/platforms PASSed for a distribution.
+
 L<http://matrix.cpantesters.org/?dist=Queue-Base>
 
 =back
+
+=head2 Email
+
+You can email the author of this module at C<RUSSOZ at cpan.org> asking for help with any problems you have.
+
+=head2 Internet Relay Chat
+
+You can get live help by using IRC ( Internet Relay Chat ). If you don't know what IRC is,
+please read this excellent guide: L<http://en.wikipedia.org/wiki/Internet_Relay_Chat>. Please
+be courteous and patient when talking to us, as we might be busy or sleeping! You can join
+those networks/channels and get help:
+
+=over 4
+
+=item *
+
+irc.perl.org
+
+You can connect to the server at 'irc.perl.org' and join this channel: #sao-paulo.pm then talk to this person for help: russoz.
+
+=back
+
+=head2 Bugs / Feature Requests
+
+Please report any bugs or feature requests by email to C<bug-queue-base at rt.cpan.org>, or through
+the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Queue-Base>. You will be automatically notified of any
+progress on the request by the system.
+
+=head2 Source Code
+
+The code is open to the world, and available for you to hack on. Please feel free to browse it and play
+with it, or whatever. If you want to contribute patches, please send me a diff or prod me to pull
+from your repository :)
+
+L<http://github.com/russoz/Queue-Base>
+
+  git clone http://github.com/russoz/Queue-Base
+
+=head1 AUTHOR
+
+Alexei Znamensky <russoz@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2011 by Farkas Arpad, Alexei Znamensky.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =head1 BUGS AND LIMITATIONS
 
 No bugs have been reported.
 
 Please report any bugs or feature requests through the web interface at
-L<http://github.com/russoz/Queue-Base/issues>.
-
-=head1 AVAILABILITY
-
-The latest version of this module is available from the Comprehensive Perl
-Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN
-site near you, or see L<http://search.cpan.org/dist/Queue-Base/>.
-
-The development version lives at L<http://github.com/russoz/Queue-Base>
-and may be cloned from L<git://github.com/russoz/Queue-Base.git>.
-Instead of sending patches, please fork this project using the standard
-git and github infrastructure.
+L<http://rt.cpan.org>.
 
 =head1 DISCLAIMER OF WARRANTY
 

@@ -4,7 +4,7 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
@@ -12,13 +12,15 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'Simple OO style queue implementation.',
   'AUTHOR' => 'Alexei Znamensky <russoz@cpan.org>',
   'BUILD_REQUIRES' => {
+    'Data::Printer' => '0',
     'English' => '0',
     'File::Find' => '0',
     'File::Temp' => '0',
-    'Test::More' => '0.88'
+    'Test::More' => '0.88',
+    'perl' => '5.006'
   },
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+    'ExtUtils::MakeMaker' => '6.30'
   },
   'DISTNAME' => 'Queue-Base',
   'EXE_FILES' => [],
@@ -27,7 +29,7 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'Carp' => '0'
   },
-  'VERSION' => '2.201',
+  'VERSION' => '2.202',
   'test' => {
     'TESTS' => 't/*.t'
   }

@@ -4,7 +4,7 @@
       "Alexei Znamensky <russoz@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Dist::Zilla version 4.200007, CPAN::Meta::Converter version 2.110930",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.31"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "runtime" : {
@@ -26,24 +26,25 @@
       },
       "test" : {
          "requires" : {
+            "Data::Printer" : 0,
             "English" : 0,
             "File::Find" : 0,
             "File::Temp" : 0,
-            "Test::More" : "0.88"
+            "Test::More" : "0.88",
+            "perl" : "5.006"
          }
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "bugtracker" : {
-         "web" : "http://github.com/russoz/Queue-Base/issues"
-      },
+      "bugtracker" : {},
+      "homepage" : "http://github.com/russoz/Queue-Base",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/russoz/Queue-Base.git",
+         "url" : "http://github.com/russoz/Queue-Base",
          "web" : "http://github.com/russoz/Queue-Base"
       }
    },
-   "version" : "2.201"
+   "version" : "2.202"
 }
 
