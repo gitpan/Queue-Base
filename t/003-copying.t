@@ -30,4 +30,3 @@ is(
     'a whole new world',
     'changing deep in the copy will mess with the original'
 );
-

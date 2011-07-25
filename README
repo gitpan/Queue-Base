@@ -2,7 +2,7 @@ NAME
     Queue::Base - Simple OO style queue implementation.
 
 VERSION
-    version 2.202
+    version 2.203
 
 SYNOPSIS
         use Queue::Base;
@@ -36,39 +36,41 @@ DESCRIPTION
     OO interface. Provides basic functionality: nothing less - nothing more.
 
 METHODS
-  Constructor
-    new [ELEMENTS]
-        Creates a new empty queue.
+  new [ELEMENTS]
+    Creates a new empty queue.
 
-        ELEMENTS is an array reference with elements the queue to be
-        initialized with.
+    ELEMENTS is an array reference with elements the queue to be initialized
+    with.
 
-  Methods
-    add [LIST_OF_ELEMENTS]
-        Adds the LIST OF ELEMENTS to the end of the queue.
+  add [LIST_OF_ELEMENTS]
+    Adds the LIST OF ELEMENTS to the end of the queue.
 
-    remove [NUMBER_OF_ELEMENTS]
-        In scalar context it returns the first element from the queue.
+  remove [NUMBER_OF_ELEMENTS]
+    In scalar context it returns the first element from the queue.
 
-        In array context it attempts to return NUMBER_OF_ELEMENTS requested;
-        when NUMBER_OF_ELEMENTS is not given, it defaults to 1.
+    In array context it attempts to return NUMBER_OF_ELEMENTS requested;
+    when NUMBER_OF_ELEMENTS is not given, it defaults to 1.
 
-    remove_all
-        Returns an array with all the elements in the queue, and clears the
-        queue.
+  remove_all
+    Returns an array with all the elements in the queue, and clears the
+    queue.
 
-    size
-        Returns the size of the queue.
+  size
+    Returns the size of the queue.
 
-    empty
-        Returns whether the queue is empty, which means its size is 0.
+  empty
+    Returns whether the queue is empty, which means its size is 0.
 
-    clear
-        Removes all elements from the queue.
+  clear
+    Removes all elements from the queue.
 
-    copy_elem
-        Returns a copy (shallow) of the underlying array with the queue
-        elements.
+  copy_elem
+    Returns a copy (shallow) of the underlying array with the queue
+    elements.
+
+  peek
+    Returns the value of the first element of the queue, wihtout removing
+    it.
 
 CAVEATS
     The module works only with scalar values. If you want to use more
@@ -161,9 +163,9 @@ SUPPORT
     contribute patches, please send me a diff or prod me to pull from your
     repository :)
 
-    <http://github.com/russoz/Queue-Base>
+    <https://github.com/russoz/Queue-Base>
 
-      git clone http://github.com/russoz/Queue-Base
+      git clone https://github.com/russoz/Queue-Base
 
 AUTHOR
     Alexei Znamensky <russoz@cpan.org>

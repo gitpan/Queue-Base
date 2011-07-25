@@ -1,8 +1,16 @@
 Revision History for Queue-Base
 ===============================
 
-2.202
+2.203
 -----
+
+commit 1656f141d296fd61277c006e2e1719ca47a77b70
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    added method peek, improved POD
+
+v2.202 2011-06-21
+-----------------
 
 commit 377bd305ddae79095578dbfe4fa4229ba085fafc
 Author: Alexei Znamensky <russoz@cpan.org>

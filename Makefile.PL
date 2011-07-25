@@ -17,6 +17,7 @@ my %WriteMakefileArgs = (
     'File::Find' => '0',
     'File::Temp' => '0',
     'Test::More' => '0.88',
+    'Test::UseAllModules' => '0',
     'perl' => '5.006'
   },
   'CONFIGURE_REQUIRES' => {
@@ -29,7 +30,7 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'Carp' => '0'
   },
-  'VERSION' => '2.202',
+  'VERSION' => '2.203',
   'test' => {
     'TESTS' => 't/*.t'
   }

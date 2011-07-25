@@ -8,11 +8,12 @@ build_requires:
   File::Find: 0
   File::Temp: 0
   Test::More: 0.88
+  Test::UseAllModules: 0
   perl: 5.006
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200007, CPAN::Meta::Converter version 2.110930'
+generated_by: 'Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930001'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,6 +22,6 @@ name: Queue-Base
 requires:
   Carp: 0
 resources:
-  homepage: http://github.com/russoz/Queue-Base
-  repository: http://github.com/russoz/Queue-Base
-version: 2.202
+  homepage: https://github.com/russoz/Queue-Base
+  repository: https://github.com/russoz/Queue-Base
+version: 2.203

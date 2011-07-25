@@ -5,7 +5,7 @@ use warnings;
 
 # ABSTRACT: Simple OO style queue implementation.
 
-our $VERSION = '2.202'; # VERSION
+our $VERSION = '2.203';    # VERSION
 
 use Carp;
 
@@ -70,6 +70,11 @@ sub copy_elem {
     return @elems;
 }
 
+sub peek {
+    my $self = shift;
+    return $self->{list}->[0];
+}
+
 1;
 
 
@@ -84,7 +89,7 @@ Queue::Base - Simple OO style queue implementation.
 
 =head1 VERSION
 
-version 2.202
+version 2.203
 
 =head1 SYNOPSIS
 
@@ -121,54 +126,46 @@ OO interface. Provides basic functionality: nothing less - nothing more.
 
 =head1 METHODS
 
-=head2 Constructor
-
-=over
-
-=item new [ELEMENTS]
+=head2 new [ELEMENTS]
 
 Creates a new empty queue.
 
 ELEMENTS is an array reference with elements the queue to be initialized with.
 
-=back
-
-=head2 Methods
-
-=over
-
-=item add [LIST_OF_ELEMENTS]
+=head2 add [LIST_OF_ELEMENTS]
 
 Adds the LIST OF ELEMENTS to the end of the queue.
 
-=item remove [NUMBER_OF_ELEMENTS]
+=head2 remove [NUMBER_OF_ELEMENTS]
 
 In scalar context it returns the first element from the queue.
 
 In array context it attempts to return NUMBER_OF_ELEMENTS requested;
 when NUMBER_OF_ELEMENTS is not given, it defaults to 1.
 
-=item remove_all
+=head2 remove_all
 
 Returns an array with all the elements in the queue, and clears the queue.
 
-=item size
+=head2 size
 
 Returns the size of the queue.
 
-=item empty
+=head2 empty
 
 Returns whether the queue is empty, which means its size is 0.
 
-=item clear
+=head2 clear
 
 Removes all elements from the queue.
 
-=item copy_elem
+=head2 copy_elem
 
 Returns a copy (shallow) of the underlying array with the queue elements.
 
-=back
+=head2 peek
+
+Returns the value of the first element of the queue, wihtout removing it.
 
 =head1 CAVEATS
 
@@ -284,9 +281,9 @@ The code is open to the world, and available for you to hack on. Please feel fre
 with it, or whatever. If you want to contribute patches, please send me a diff or prod me to pull
 from your repository :)
 
-L<http://github.com/russoz/Queue-Base>
+L<https://github.com/russoz/Queue-Base>
 
-  git clone http://github.com/russoz/Queue-Base
+  git clone https://github.com/russoz/Queue-Base
 
 =head1 AUTHOR
 
@@ -333,5 +330,4 @@ DAMAGES.
 
 
 __END__
-
 

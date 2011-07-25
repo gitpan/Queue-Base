@@ -10,6 +10,7 @@ SIGNATURE
 dist.ini
 lib/Queue/Base.pm
 t/00-compile.t
+t/00-load.t
 t/000-report-versions-tiny.t
 t/001-load.t
 t/002-queue.t
